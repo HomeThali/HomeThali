@@ -20,11 +20,11 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox@3.0.8/dist/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -42,7 +42,7 @@
           <i class="bi bi-phone d-flex align-items-center d-none d-lg-block"><span>+91 9646065646</span></i>
           <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>All days: 07:00 AM - 09:00 PM</span></i>
         </div>
-        <a href="#menu" class="cta-btn">Call 9646065646 to Order</a>
+        <a href="tel:+919646065646" class="cta-btn">Call 9646065646 to Order</a>
       </div>
     </div><!-- End Top Bar -->
 
@@ -60,11 +60,11 @@
             <li><a href="#hero" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
-            <li><a href="#specials">Specials</a></li>
-            <li><a href="#opportunities">Opportunities</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="providers.html">Providers</a></li>
             <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#careers">Careers</a></li>
-            <li><a href="#faqs">FAQ's</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="faqs.html">FAQ's</a></li>
             <!-- <li><a href="#chefs">Chefs</a></li> -->
             
             
@@ -135,7 +135,7 @@
             <h2>A Good opportunity for <span>Home Makers</span> to earn Money</h2>
             <p>If you are excellent at cooking and want to earn money from your home. You have found the right place check the oppurtunities section for more information.</p>
             <div>
-              <a href="#opportunities" class="btn-get-started">Opportunities</a>
+              <a href="providers.html" class="btn-get-started">Providers</a>
               
             </div>
           </div>
@@ -157,40 +157,56 @@
     </section>
     <!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
+<!-- About Section -->
+<section id="about" class="about section light-background">
 
-      <div class="container">
+  <!-- Section Title -->
+  <div class="container section-title text-center" data-aos="fade-up">
+    <h2>About Us</h2>
+    <div><span>About</span> <span class="description-title">Our Service</span></div>
+    <br>
+  </div><!-- End Section Title -->
 
-        <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/homecook.png" class="img-fluid" alt=""width="65%" height="65%" >
-            <!-- <a href="https://www.youtube.com/watch?v=NpEaa2P7qZI&ab_channel=TristanBrehaut"
-              class="glightbox pulsating-play-btn"></a> -->
-          </div>
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-            <h3> Looking For<h3 style="color:#84D160;">Home made food ?</h3>
-              <p class="fst-italic">
-                Are you craving for delicious and hygienic home-cooked food?
-              </p>
-              <ul>
-                <li><i class="bi bi-check2-all"></i> <span>Choose your favorite dishes in your preferred quantity</span>
-                </li>
-                <li><i class="bi bi-check2-all"></i> <span>Experience the health benefits of homemade Cuisine</span>
-                </li>
-                <li><i class="bi bi-check2-all"></i> <span>Conveniently delivered home food right to your door</span>
-                </li>
-                <li><i class="bi bi-check2-all"></i> <span>All at surprisingly reasonable prices</span></li>
-              </ul>
-              <p>
+  <div class="container">
 
-              </p>
-          </div>
-        </div>
-
+    <div class="row gy-4">
+      <!-- Image Column -->
+      <div class="col-lg-6 position-relative align-self-start text-center" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/img/homecook.png" class="img-fluid rounded" alt="Home Cooked Food" width="80%">
       </div>
 
-    </section><!-- /About Section -->
+      <!-- Content Column -->
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+        <h3>Looking For</h3>
+        <h3 style="color:#84D160;">Homemade Food?</h3>
+        <p class="fst-italic">
+          Are you craving delicious and hygienic home-cooked food? Look no further!
+        </p>
+        <ul>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span><strong>Choose your favorite dishes</strong> in your preferred quantity.</span>
+          </li>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span>Enjoy the <strong>health benefits</strong> of homemade cuisine.</span>
+          </li>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span><strong>Convenient delivery</strong> of freshly cooked food right to your door.</span>
+          </li>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span>All at <strong>surprisingly reasonable prices</strong>.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /About Section -->
+
 
     <!-- Why Us Section -->
     <section id="why-us" class="why-us section">
@@ -371,108 +387,8 @@
 
   -->
     
-    <!-- /Menu Section -->
+    
 
-    <!-- Specials Section -->
-    <section id="specials" class="specials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Specials</h2>
-        <div><span>Check Our</span> <span class="description-title">Specials</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#specials-tab-1">Dosa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-2">Idli</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-3">Full Meals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-4">Poori Sagu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-5">Pulao</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="specials-tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Dosa</h3>
-                    <p class="fst-italic">A dosa, dosai or dosha is a thin, savoury crepe in South Indian cuisine made from a fermented batter of ground black gram and rice.</p>
-                    <p>Dosas are served hot, often with chutney and sambar (a lentil-based vegetable stew). Dosas are popular in South Asia as well as around the world.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Dosa.JPG" alt="" class="img-fluid" width="" height="">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Idli</h3>
-                    <p class="fst-italic">Idli or idly (plural: idlis) or iddali or iddena is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka. </p>
-                    <p>The cakes are made by steaming a batter consisting of fermented de-husked black lentils and rice. The fermentation process breaks down the starches so that they are more readily metabolised by the body.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Idli.JPG" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Full Meals</h3>
-                    <p class="fst-italic">Thali (meaning "plate" or "tray") or Bhojanam (meaning "full meal") is a round platter used to serve food in South Asia, Southeast Asia and the Caribbean.</p>
-                    <p>Thali is also used to refer to an Indian-style meal made up of a selection of various dishes which are served on a platter. Thali is also used in south Asia for ceremonial purposes.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Meals.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Poori Sagu</h3>
-                    <p class="fst-italic">Puri, also poori, is a type of deep-fried bread, made from unleavened whole-wheat flour, originated from the Indian subcontinent.</p>
-                    <p>Puris are most commonly served as breakfast or snacks. It is also served at special or ceremonial functions as part of ceremonial rituals along with other vegetarian food offered in Hindu prayer as prasadam. When hosting guests it is common in some households to serve puri in place of roti, as a small gesture of formality.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Poori.JPG" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Pulao</h3>
-                    <p class="fst-italic">Pulao is a rice dish, usually sauted whose recipe usually involves cooking in stock or broth, adding spices, and other ingredients such as vegetables or meat.</p>
-                    <p>Pulao has veggies, spice flavors and ground mint plus spice puree. Rice is cooked with flavorful masalas and vegetables or meat</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Pulao.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div> 
-
-    </section><!-- /Specials Section -->
 
     <!--
     <section id="book-a-table" class="book-a-table section">
@@ -608,23 +524,7 @@
     
     Chefs Section -->
 
-    <!-- Opportunities Section -->
 
-    <section id="opportunities" class="Opportunities section">
-
-       <!-- Section Title -->
-       <div class="container section-title" data-aos="fade-up">
-        <h2>Opportunities</h2>
-        <div><span>Collaberate with us as</span> <span class="description-title">Home Chefs</span></div>
-      </div><!-- End Section Title -->
-      <div class="pic" align="center"><img src="assets/img/Collab.png" class="img-fluid" alt=""></div>
-      <br>
-      <h2 align="center"><a href="#contact" class="cta-btn">Click Here</a> to apply to be a Home Chef
-      </h2>
-
-    </section>
-
-    <!-- End of Opportunities Section -->
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
@@ -642,7 +542,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/a.jpg" alt="" class="img-fluid">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
@@ -650,7 +550,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/b.png" alt="" class="img-fluid">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
@@ -658,7 +558,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/c.png" alt="" class="img-fluid">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
@@ -666,42 +566,13 @@
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/d.png  " alt="" class="img-fluid">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
               </a>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+          <!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
+          
 
         </div>
 
@@ -710,170 +581,8 @@
     </section>
     <!-- /Gallery Section -->
 
-    <!--Careers Section-->
-
-    
-    <section id="careers" class="Careers section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Careers</h2>
-        <div><span>Are you intersted to</span> <span class="description-title">Work with us?</span></div>
-      </div><!-- End Section Title -->
-
-      <!--
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#specials-tab-1">Customer care executive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-2">Customer care Lead</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-3">Quality Executive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-4">Delivery Girl/Boy</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-5">Marketing Executive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-5">Female marketing executive</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-5">Digital marketing executive</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="specials-tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Dosa</h3>
-                    <p class="fst-italic">A dosa, dosai or dosha is a thin, savoury crepe in South Indian cuisine made from a fermented batter of ground black gram and rice.</p>
-                    <p>Dosas are served hot, often with chutney and sambar (a lentil-based vegetable stew). Dosas are popular in South Asia as well as around the world.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Dosa.JPG" alt="" class="img-fluid" width="" height="">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Idli</h3>
-                    <p class="fst-italic">Idli or idly (plural: idlis) or iddali or iddena is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India and in Sri Lanka. </p>
-                    <p>The cakes are made by steaming a batter consisting of fermented de-husked black lentils and rice. The fermentation process breaks down the starches so that they are more readily metabolised by the body.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Idli.JPG" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Full Meals</h3>
-                    <p class="fst-italic">Thali (meaning "plate" or "tray") or Bhojanam (meaning "full meal") is a round platter used to serve food in South Asia, Southeast Asia and the Caribbean.</p>
-                    <p>Thali is also used to refer to an Indian-style meal made up of a selection of various dishes which are served on a platter. Thali is also used in south Asia for ceremonial purposes.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Meals.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Poori Sagu</h3>
-                    <p class="fst-italic">Puri, also poori, is a type of deep-fried bread, made from unleavened whole-wheat flour, originated from the Indian subcontinent.</p>
-                    <p>Puris are most commonly served as breakfast or snacks. It is also served at special or ceremonial functions as part of ceremonial rituals along with other vegetarian food offered in Hindu prayer as prasadam. When hosting guests it is common in some households to serve puri in place of roti, as a small gesture of formality.</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Poori.JPG" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="specials-tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Pulao</h3>
-                    <p class="fst-italic">Pulao is a rice dish, usually sauted whose recipe usually involves cooking in stock or broth, adding spices, and other ingredients such as vegetables or meat.</p>
-                    <p>Pulao has veggies, spice flavors and ground mint plus spice puree. Rice is cooked with flavorful masalas and vegetables or meat</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/Pulao.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div> 
-    -->
-    </section>
 
     <!-- FAQ Section-->
-
-    <section id="faqs" class="FAQ section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>FAQ's
-        </h2>
-        <div><span>Have any more</span> <span class="description-title">Questions?</span></div>
-      </div><!-- End Section Title -->
-
-     
-    <button class="accordion">1. Where is home thali Operational?</button>
-    <div class="panel">
-      <p align="center">Currently we are Operational at Guntur</p>
-    </div>
-    
-    <button class="accordion">2. How much time in advance should I order?</button>
-    <div class="panel">
-      <p align="center">Order needs to be placed atleast 40 minutes in advance.</p>
-    </div>
-    
-    <button class="accordion">3. How much time before I can order?</button>
-    <div class="panel">
-      <p align="center">Currently 2 days before order can be placed on our website.</p>
-    </div>
-
-    <button class="accordion">4. What are the payment options?</button>
-    <div class="panel">
-      <p align="center">Right now we offer cash payments</p>
-    </div>
-
-    <button class="accordion">5. Does HomeThali service bulk orders?</button>
-    <div class="panel">
-      <p align="center">Yes we do service bulk order.</p>
-    </div>
-
-    <button class="accordion">6. Can I place orders  from website or App?</button>
-    <div class="panel">
-      <p align="center">Currently order can be placed from App.</p>
-    </div>
-
-    <button class="accordion">7. How do we ensure quality of the food?</button>
-    <div class="panel">
-      <p align="center">Our team frequently inspects the food.</p>
-    </div>
-
-    <button class="accordion">8. What are the requirements for me to be a food provider?</button>
-    <div class="panel">
-      <p align="center">You need to have a FSSAI Certificate.</p>
-    </div>
-
-    </section>
 
 
    
@@ -1182,14 +891,15 @@
   <!-- Preloader -->
   <div id="preloader"></div>
 
+  <script src="assets/js/validate.js"></script>
+
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.0.8/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
